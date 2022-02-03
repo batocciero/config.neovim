@@ -24,12 +24,11 @@ vim.cmd([[
   augroup end
 ]])
 
--- Color Scheme
--- vim.cmd([[ set bg=dark ]])
--- vim.cmd([[ set termguicolors ]])
--- vim.cmd([[ colorscheme onedark ]])
-
 vim.cmd([[ let extension = expand('%:e') ]])
 
 vim.opt.laststatus=2
 vim.opt.showtabline=2
+
+-- Color scheme
+vim.cmd[[colorscheme rvcs]]
+
